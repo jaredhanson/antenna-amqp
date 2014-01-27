@@ -1,7 +1,7 @@
 {
   "name": "antenna-amqp",
   "version": "0.0.0",
-  "description": "AMQP adapter for Crane.",
+  "description": "AMQP adapter for Antenna.",
   "keywords": [
     "amqp"
   ],
