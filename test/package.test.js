@@ -1,11 +1,15 @@
 /* global describe, it, expect */
 
-var pkg = require('..');
+var amqp = require('..');
 
 describe('antenna-amqp', function() {
   
-  it('should export object', function() {
-    expect(pkg).to.be.an('object');
+  it('should export functions', function() {
+    expect(amqp.createBus).to.be.a('function');
+  });
+  
+  it('should export constructors', function() {
+    expect(amqp.Bus).to.be.a('function');
   });
   
 });
