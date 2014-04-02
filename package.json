@@ -26,6 +26,7 @@
   "main": "./lib",
   "dependencies": {
     "amqp": "0.1.x",
+    "uid2": "0.0.3",
     "debug": "~0.7.4"
   },
   "devDependencies": {
