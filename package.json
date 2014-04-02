@@ -25,7 +25,8 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "amqp": "0.1.x"
+    "amqp": "0.1.x",
+    "debug": "~0.7.4"
   },
   "devDependencies": {
     "mocha": "1.x.x",
